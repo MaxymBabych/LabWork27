@@ -1,5 +1,5 @@
 package Laba27;
-
+// тест редактирования
 public class Main {
     public static void main(String[] args) {
         Device device1 = new Device("Samsung", 120, "AB1234567CD");
