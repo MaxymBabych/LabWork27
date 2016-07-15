@@ -35,10 +35,14 @@ public class Main {
         System.out.println("Первый и второй Адапреры одинаковые? - " + ethernetAdapter1.equals(ethernetAdapter2));
         System.out.println("Первый и третий Адапреры одинаковые? - " + ethernetAdapter1.equals(ethernetAdapter3));
 
+
         //Массив разнотипных объектов
         Device[] devicesArr = {device1, device2, device3, monitor1, monitor2, monitor3, ethernetAdapter1, ethernetAdapter2, ethernetAdapter3};
         for (Device device : devicesArr) {
             System.out.println(device.toString());
+
         }
+
+
     }
 }
